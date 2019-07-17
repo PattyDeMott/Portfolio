@@ -1,0 +1,168 @@
+/***** BASE STYLES *****/
+
+Body {
+	font-family: roboto-condensed, sans-serif;
+	font-style: normal;
+	font-weight: 300; 
+}
+
+
+
+  /***** GRID *****/
+
+  .full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+  .half-width {
+    width: 600px;
+    margin: 0 auto;
+    float: left;
+}
+
+  .third-width {
+    width: 400px;
+    margin: 0 auto;
+    float: left;
+}
+
+
+
+  /***** HEADER *****/
+
+header 
+	{
+	background-image: url("../img/lightsandtree.png");
+    background-size: cover;
+	height: 780px;
+	}
+
+nav {
+	float: right; 
+    padding: 65px 15px;
+}
+
+nav ul li a {
+	color: white;
+	font-size: 30px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+
+li {
+	display: inline-block;
+}
+
+ul {
+	word-spacing: 10px;
+}
+
+
+
+header h1 {
+	font-size: 75px;
+	color: white;
+	font-family: roboto-condensed, sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	padding: 100px 0px 0px 0px;
+
+}
+
+
+header p {
+	color: white;
+	font-size: 45px;
+}
+
+
+/***** ABOUT *****/
+
+#about{
+	height: 350px;
+}
+
+#about h2 {
+	font-family: roboto-condensed, sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 36px;
+	
+}
+
+#about p {
+	padding: 10px 50px 10px 50px;
+	font-size: 21px; 
+	
+}
+
+#about span {
+	color: #ACB8A7;
+	font-weight: bold;
+}
+
+
+/***** WORK *****/
+
+
+#work {
+	height: 400px;
+	background-color: #ACB8A7;
+	padding: 50px 0px;
+}
+
+#work .third-width {
+	text-align: center;
+	
+}
+
+#work h3 {
+	font-weight: bold;
+	font-size: 24px;
+	
+}
+
+#work p {
+	font-size: 18px;
+}
+
+#work img {
+	border: 1px solid black;
+}
+
+#work-two {
+	margin-top: 65px;
+}
+
+
+/***** FOOTER *****/
+
+#contact {
+	height: 350px;
+	padding: 50px 0px;
+
+}
+
+#laptop img {
+	border: 10px solid #ACB8A7;
+}
+
+#contact h3 {
+	font-weight: bold;
+	font-size: 24px;
+	padding: 60px 0 0;
+}
+
+#contact a {
+	text-decoration: none;
+	font-size: 20px;
+	color: black;
+	font-width: bold;
+	display: inline-block;
+	
+}
+
+
+
